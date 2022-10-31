@@ -10,6 +10,12 @@ conda activate unemployment-env
 pip install -r requirements.txt
 ``` 
 
+## Configuration
+
+```sh
+ALPHAVANTAGE
+```
+
 ## Usage
 
 ```sh
@@ -17,6 +23,7 @@ python app/my_script.py
 ```
 
 Run Unemployment File:
+
 ```sh
 python app/unemployment.py
 ```
