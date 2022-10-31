@@ -2,7 +2,8 @@
 
 ##SETUP
 ```sh
-conda create -n unemployment-env python=3.8
+ conda create -n unemployment-env python=3.8
+
 conda activate unemployment-env
 ```
 
@@ -29,5 +30,6 @@ python app/unemployment.py
 ```
 
 ```sh
-ALPHAVANTAGE_API_KEY="abc123" python app/unemployment.py
+
+API_KEY="abc123" python app/unemployment.py
 ```
